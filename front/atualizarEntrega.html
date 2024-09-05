@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Entrega</title>
+    <link rel="stylesheet" href="./src/menu.css">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <h1>Preencha os dados</h1>
+
+    <div class="menu">
+        <label for="codEntrega">Insira a codigo da Entrega</label>
+        <input type="text" id="codEntrega">
+        <br><br>
+        <label for="local">Insira o local da Entrega</label>
+        <input type="text" id="local">
+        <br><br>
+        <label for="data">Insira a data do Entrega</label>
+        <input type="date" id="data">
+
+        <br><br><br>
+        <button id="acao">Atualizar Entrega</button>
+    </div>
+
+    <p id="res">resposta do servidor</p>
+
+    <script src="atualizarEntrega.js"></script>
+</body>
+</html>

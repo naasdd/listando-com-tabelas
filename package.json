@@ -1,0 +1,18 @@
+{
+  "name": "rel_1_n_n_1",
+  "version": "1.0.0",
+  "description": "diagrama de relacionamento 1 para muitos: 1_n_n_1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Carlos",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  }
+}
