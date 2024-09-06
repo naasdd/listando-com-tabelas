@@ -1,5 +1,5 @@
-let acao = document.getElementById('acao')
-let res = document.getElementById('res')
+let acagetElementById('acao')
+let tbody
 
 acao.addEventListener('click', () => {
 
@@ -11,7 +11,7 @@ acao.addEventListener('click', () => {
         res.innerHTML = ''
         valores.forEach(atual => {
 
-            res.innerHTML += `codPedido: ${atual.codPedido}<br> Número do pedido: ${atual.numeroPedido} <br> data: ${atual.data} <br> nome: ${atual.nome} <br> preco: ${atual.preco} <br> Id do produto: ${atual.produtoId} <br> Id do fabricante ${atual.fabricanteId} <br><br>`
+            res.innerHTML += `codEntrega: ${atual.codEntrega}<br> Local: ${atual.local} <br> data: ${atual.data}`
         });
     })
 })

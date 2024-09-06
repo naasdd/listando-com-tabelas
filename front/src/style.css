@@ -48,3 +48,33 @@ button:hover{
     margin: 20px;
     font-size: 18px;
 }
+
+table {
+    /* width: 100%; */
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody td:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td:hover {
+    background-color: #ddd;
+}

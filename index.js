@@ -7,6 +7,7 @@ const Produto = require('./model/Produto')
 const conn = require('./db/conn')
 const controllerFabricante = require('./controller/controllerFabricante')
 const controllerProduto = require('./controller/controllerProduto')
+const controllerEntrega = require('./controller/controllerEntrega')
 
 const PORT = 3000
 const hostname = 'localhost'
